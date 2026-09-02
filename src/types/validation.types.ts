@@ -1,3 +1,12 @@
+export type CardType =
+  | "Visa"
+  | "Mastercard"
+  | "Amex"
+  | "Discover"
+  | "Verve"
+  | "AfriGO"
+  | "Unknown";
+
 export interface ValidationRequest {
   cardNumber: string;
 }
@@ -6,7 +15,7 @@ export interface ValidationResponse {
   valid: boolean;
   cardNumber: string;
   message?: string;
-  cardType?: "Visa" | "Mastercard" | "Amex" | "Verve" | "Discover" | "Unknown";
+  cardType?: CardType;
   suggestions?: string[];
 }
 
