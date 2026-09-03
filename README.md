@@ -72,7 +72,7 @@ The implementation follows **clean architecture** principles with clear separati
 | Technology         | Version | Purpose                       |
 | ------------------ | ------- | ----------------------------- |
 | Node.js            | ≥14.0.0 | Runtime environment           |
-| TypeScript         | ≥7.0.0  | Type-safe JavaScript superset |
+| TypeScript         | ≥6.0.0  | Type-safe JavaScript superset |
 | Express.js         | 4.18.2  | Web framework                 |
 | Helmet             | 7.0.0   | Security headers middleware   |
 | CORS               | 2.8.5   | Cross-origin resource sharing |
