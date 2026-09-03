@@ -1,12 +1,9 @@
 import express, { Application } from "express";
 import cors from "cors";
 import helmet from "helmet";
-import validationRoutes from "./routes/validation.routes.ts";
-import {
-  errorHandler,
-  notFoundHandler,
-} from "./middleware/error.middleware.ts";
-import { logger } from "./middleware/logger.middelware.ts";
+import validationRoutes from "./routes/validation.routes";
+import { errorHandler, notFoundHandler } from "./middleware/error.middleware";
+import { logger } from "./middleware/logger.middelware";
 
 export const createApp = (): Application => {
   const app = express();

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ValidationService } from "../services/validation.service.ts";
+import { ValidationService } from "../services/validation.service";
 
 const validationService = new ValidationService();
 

@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { ValidationController } from "../controllers/validation.controller.ts";
-import { ValidationValidator } from "../validators/validation.validator.ts";
-import { rateLimiter } from "../middleware/rate-limit.middleware.ts";
+import { ValidationController } from "../controllers/validation.controller";
+import { ValidationValidator } from "../validators/validation.validator";
+import { rateLimiter } from "../middleware/rate-limit.middleware";
 
 const router = Router();
 

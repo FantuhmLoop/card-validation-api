@@ -1,5 +1,5 @@
-import { LuhnUtil } from "../utils/luhn.util.ts";
-import { ValidationResponse } from "../types/validation.types.ts";
+import { LuhnUtil } from "../utils/luhn.util";
+import { ValidationResponse } from "../types/validation.types";
 
 export class ValidationService {
   /**

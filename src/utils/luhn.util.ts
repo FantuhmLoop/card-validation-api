@@ -1,4 +1,4 @@
-import { CardType } from "../types/validation.types.ts";
+import { CardType } from "../types/validation.types";
 
 /**
  * Luhn Algorithm implementation for card validation
